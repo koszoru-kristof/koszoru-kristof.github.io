@@ -20,4 +20,4 @@ social: false # includes social icons at the bottom of the page
 
 This is my personal website.
 
-Details will follow soon.
+In the wake of the latest AI revolution (LLM hype), I had to realize that as the tools are steadily improving, the only thing left is just to specify the work you would like the AI agent to carry out for you. This is an attempt to collect the ideas I would like to bring to life eventually.
