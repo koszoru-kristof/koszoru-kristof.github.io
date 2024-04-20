@@ -17,7 +17,7 @@ The goal of the project was to design a mobile application that can control the 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/lightbit_data/Flying_iPhoneX_Mockups_black.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/lightbit_data/Flying_iPhoneX_Mockups_black.png" title="iphone_img" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -27,7 +27,7 @@ The goal of the project was to design a mobile application that can control the 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/lightbit_data/Perspective_Mock-Up_lightbit.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/lightbit_data/Perspective_Mock-Up_lightbit.png" title="mock_up" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

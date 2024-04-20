@@ -355,6 +355,8 @@ imagemagick:
     - 1400
   input_directories:
     - assets/img/
+    - assets/goggins_data/
+    - assets/lightbit_data/
   input_formats:
     - ".jpg"
     - ".jpeg"
