@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Goggins
-description: Motivationan wallpaper design
+description: Motivational wallpaper design
 img: assets/goggins_data/goggins3_small.jpg
 importance: 2
 category: design
