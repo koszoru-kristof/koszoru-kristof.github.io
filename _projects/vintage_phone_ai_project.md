@@ -11,17 +11,7 @@ related_publications: false
 
 ### Description
 
-
-
-
-### Design
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/goggins_data/goggins3.png" title="goggins_full_wp" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
+WIP, check out the github repository for more details.
 
 
 ## Source Code
