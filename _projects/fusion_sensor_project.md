@@ -2,7 +2,7 @@
 layout: page
 title: Fusion Sensor
 description: 3D renders of a motion detection sensor
-img: assets/goggins_data/goggins3_small.jpg
+img: assets/img/fusion_gold_final_v2.png
 importance: 2
 category: design
 related_publications: false
@@ -16,14 +16,47 @@ Fusion sensor is a 3 PCB board design for motion and environmental sensing. The 
 
 ### Design
 
- TODO add images
- 
+<br>
+
+#### Gold version
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/goggins_data/goggins3.png" title="goggins_full_wp" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fusion_gold_final_v2.png" title="fusion_gold" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+<br><br>
+
+#### Red version
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fusion_red_final_v2.png" title="fusion_red" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br><br>
+
+#### Empahsis on the environmental aspect
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fusion_with_animals_wallp_2.png" title="fusion_green" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br><br>
+
+#### Poster version
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fusion_with_animals_poster.png" title="fusion_poster" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br><br>
 
 #### Tools
 
