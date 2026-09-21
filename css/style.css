@@ -40,6 +40,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
 /* Container */
 .container {
     max-width: var(--max-width);
@@ -446,54 +451,134 @@ a:hover {
 }
 
 /* Responsive */
+@media (max-width: 900px) {
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.25rem;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
+    /* Stack the about section: photo, name, then bio */
     .about {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+        width: 100%;
+    }
+
+    .profile-img {
+        grid-row: auto;
+        width: 180px;
+        height: 180px;
+        max-width: 100%;
+    }
+
+    .profile-info {
         text-align: center;
     }
-    
-    .profile-img {
-        margin: 0 auto;
+
+    .tagline {
+        font-size: 1.1rem;
     }
-    
-    .profile-info {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    
+
     .bio {
-        grid-column: 1;
+        max-width: 100%;
     }
-    
+
     .bio p {
+        font-size: 1rem;
         text-align: left;
     }
-    
+
     .project-category {
         grid-template-columns: 1fr;
+        gap: 1.25rem;
     }
-    
+
+    .project-grid {
+        gap: 2rem;
+    }
+
+    .project-detail header h1 {
+        font-size: 1.85rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+
+    .contact {
+        margin-top: 3rem;
+    }
+
     .social-links {
         flex-direction: column;
     }
-    
+
     .social-links a {
         width: 100%;
         text-align: center;
     }
+
+    .btn {
+        display: block;
+        text-align: center;
+        padding: 0.9rem 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
     .project-card img {
         height: 180px;
+    }
+}
+
+/* Only apply lift/zoom hover effects on devices with a real pointer,
+   so cards don't get stuck in a hovered state after a tap on touch screens */
+@media (hover: none) {
+    .project-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .project-card:hover img {
+        transform: none;
+    }
+
+    .profile-img:hover {
+        transform: none;
+    }
+
+    .social-links a:hover,
+    .btn:hover {
+        transform: none;
     }
 }
 
@@ -510,7 +595,8 @@ a:hover {
     opacity: 0;
     transition: all 0.3s ease;
     z-index: 1000;
-    white-space: nowrap;
+    max-width: calc(100vw - 2rem);
+    text-align: center;
 }
 
 .easter-egg-popup.show {
